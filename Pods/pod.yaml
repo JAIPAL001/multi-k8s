@@ -9,4 +9,10 @@ spec:
     ports:
     - containerPort: 80
 ---
-This is what I was looking for dude
+#This is what I was looking for dude
+apiversion: v1
+kind: Service
+metadata:
+  name: myervice
+spec:
+  name: service_for_new_pod
